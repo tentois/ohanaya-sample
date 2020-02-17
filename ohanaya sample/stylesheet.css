@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+/* 基本骨子 ================================ */
+*{
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font: 100%/1.5 'Avenir Next', 'Hiragino Sans', sans-serif, 'noto sans Japanese';
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+input {
+  background-color: transparent;
+  outline-width: 0;
+}
+
+form input[type="submit"] {
+  border: none;
+  cursor: pointer;
+}
+
+/* 共通レイアウト ================================ */
+
+body {
+  color: black;
+  background-color:rgba(235, 228, 228,1);
+  margin: 0;
+  min-height: 1vh;
+  font-family: 'noto sans Japanese', "Hiragino Kaku Gothic ProN", sans-serif;
+  text-align: center;
+}
+.styling {
+
+}
+.container h1{
+  font-family: serif;
+  margin:180px 0px 130px 0px;
+  font-size: 45px;
+}
+.container p{
+  line-height:40px;
+  font-size:22px;
+  padding-left:22%;
+  text-align:left;
+}
+.index{
+  width:600px;
+  height:400px;
+  margin-top:100px;
+}
+
+
+
+.delivery{
+
+}
+.gift{
+  width:600px;
+  height:400px;
+  margin-top:100px;
+}
+
+
+
+.order h1{
+  margin:180px 0px 50px 0px;
+}
+.order p{
+  text-align:center;
+  padding-left: 0;
+  margin-bottom:15px;
+}
+.order a{
+  text-align: center;
+}
+.recommend{
+  position:relative;
+  left:0px;
+  top:0px;
+}
+.detail{
+  display: block;
+  border-bottom:solid black 1px;
+  color:rgba(0,0,0,1);
+  margin: 100px 35% 200px 35%;
+  font-size:35px;
+  position:relative;
+  left:0px;
+  top:0px;
+}
+.detail:hover{
+  color:rgba(137,136,157,0.7);
+}
+.yotuba{
+  position:absolute;
+  left:94%;
+  top:32px;
+  height: 50px;
+  width:50px;
+
+  }
+
+.info{
+  background-color: rgba(255,255,255,1);
+}
+.info h1{
+  padding:110px 0px;
+  font-family: serif;
+  font-size: 45px;
+}
